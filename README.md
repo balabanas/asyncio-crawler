@@ -35,3 +35,9 @@ python main.py --update_cycle=10
 , where 10 is number of seconds between updates.
 
 The folder `downloads` will be automatically created in the folder with `main.py`. There you'll find folders with the downloaded news. The name of each folder is the news' `id`.
+
+
+## TODOs
+1) https://github.com/balabanas/asyncio-crawler/blob/main/http_utils.py#L31 - too broad Exception
+2) https://github.com/balabanas/asyncio-crawler/blob/main/http_utils.py#L25 - typing package for annotation tuple
+3) Typing to all functions, not to some
